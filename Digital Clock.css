@@ -1,0 +1,25 @@
+/* Created by Qasim */
+input{
+    margin:5% auto ;
+    padding:20px;
+    font-size:25px;
+    font-weight:bold ;
+    border:none ;
+    border:5px solid #39f;
+    text-align:center ;
+    color:#39f;
+    border-radius:3px;
+    box-shadow:0 0 10px #1876f3;
+    animation:bor 1s linear infinite ;
+}
+@keyframes bor{
+    0%{
+        border:5px solid #39f;
+    }
+    100%{
+        border:5px solid red;
+    }
+}
+h1{
+    text-shadow:2px 2px 3px #ddd;
+}
